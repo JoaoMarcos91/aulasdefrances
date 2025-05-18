@@ -348,6 +348,11 @@
             opacity: 0;
             animation-delay: 0.6s;
         }
+
+        img {
+          width: 300px;
+
+        }
     </style>
 </head>
 <body>
@@ -371,14 +376,7 @@
             <p>Oferecemos aulas dinâmicas e envolventes, voltadas para desenvolver suas habilidades de conversação, escrita e compreensão da língua francesa.</p>
         </div>
 
-        <div class="photos">
-            <div class="photo-space animate delay-1" id="photo1">
-                <p>Adicionar Foto 1</p>
-            </div>
-            <div class="photo-space animate delay-2" id="photo2">
-                <p>Adicionar Foto 2</p>
-            </div>
-        </div>
+      
 
         <div class="pricing animate delay-3">
             <h2>Pacotes e Valores</h2>
@@ -483,11 +481,6 @@
     <script>
         // Animate elements when they come into view
         document.addEventListener('DOMContentLoaded', function() {
-
-            // Add event listeners to photo spaces
-            document.getElementById('photo1').addEventListener('click', function() {
-                alert('Clique para adicionar a primeira foto das suas aulas de francês');
-            });
 
             document.getElementById('photo2').addEventListener('click', function() {
                 alert('Clique para adicionar a segunda foto das suas aulas de francês');
